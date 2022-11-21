@@ -7,11 +7,12 @@ import lgZoom from "lightgallery/plugins/zoom";
 
 function Gallery() {
   const onInit = () => {
-    console.log("lightGallery has been initialized");
+    console.debug("lightGallery has been initialized");
   };
 
   return (
     <div>
+      <h1>Gallery</h1>
       <LightGallery
         onInit={onInit}
         speed={500}
@@ -20,56 +21,158 @@ function Gallery() {
       >
         <a
           href="javascript()"
-          data-lg-size="1406-1390"
+          data-lg-size="1263-736"
           className="gallery-item"
-          data-src="https://images.unsplash.com/photo-1581894158358-5ecd2c518883?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1406&q=80"
-          data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@entrycube' >Diego Guzmán </a></h4> <p> Location - <a href='https://unsplash.com/s/photos/fushimi-inari-taisha-shrine-senbontorii%2C-68%E7%95%AA%E5%9C%B0-fukakusa-yabunouchicho%2C-fushimi-ward%2C-kyoto%2C-japan'>Fushimi Ward, Kyoto, Japan</a></p>"
+          data-src="/images/projects/web-advent.jpg"
+          data-sub-html="<h4>Advent.com</h4><p>Advent.com website</p>"
         >
           <img
             className="img-responsive"
             alt=""
-            src="https://images.unsplash.com/photo-1581894158358-5ecd2c518883?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=240&q=80"
+            src="/images/projects/web-advent_tn.jpg"
           />
         </a>
         <a
           href="javascript()"
-          data-lg-size="1400-1400"
-          data-pinterest-text="Shinimamiya, Osaka, Japan"
-          data-tweet-text="Shinimamiya, Osaka, Japan"
+          data-lg-size="1263-736"
           className="gallery-item"
-          data-src="https://images.unsplash.com/photo-1544550285-f813152fb2fd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
-          data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@asoshiation' >Shah </a></h4><p> Location - <a href='https://unsplash.com/s/photos/shinimamiya%2C-osaka%2C-japan'>Shinimamiya, Osaka, Japan</a></p>"
+          data-src="/images/projects/web-adventcommunity.jpg"
+          data-sub-html="<h4>Advent Community</h4><p>Advent Community website</p>"
         >
           <img
             className="img-responsive"
             alt=""
-            src="https://images.unsplash.com/photo-1544550285-f813152fb2fd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=240&q=80"
+            src="/images/projects/web-adventcommunity_tn.jpg"
           />
         </a>
         <a
           href="javascript()"
-          data-lg-size="1400-1400"
+          data-lg-size="1263-736"
           className="gallery-item"
-          data-src="https://images.unsplash.com/photo-1584592740039-cddf0671f3d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
-          data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@katherine_xx11' >Katherine Gu </a></h4><p> For all those years we were alone and helpless.</p>"
+          data-src="/images/projects/web-adventgate.jpg"
+          data-sub-html="<h4>Advent.com</h4><p>Advent.com website</p>"
         >
           <img
             className="img-responsive"
             alt=""
-            src="https://images.unsplash.com/photo-1584592740039-cddf0671f3d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=240&q=80"
+            src="/images/projects/web-adventgate_tn.jpg"
           />
         </a>
         <a
           href="javascript()"
+          data-lg-size="1263-736"
           className="gallery-item"
-          data-src="https://www.youtube.com/watch?v=egyIeygdS_E&mute=0"
-          key="4"
+          data-src="/images/projects/web-adventgate-reskin.jpg"
+          data-sub-html="<h4>Advent.com</h4><p>Advent.com website</p>"
         >
           <img
-            style={{ maxWidth: "400px" }}
             className="img-responsive"
             alt=""
-            src="https://img.youtube.com/vi/egyIeygdS_E/maxresdefault.jpg"
+            src="/images/projects/web-adventgate-reskin_tn.jpg"
+          />
+        </a>
+        <a
+          href="javascript()"
+          data-lg-size="1263-736"
+          className="gallery-item"
+          data-src="/images/projects/web-optimumhit.jpg"
+          data-sub-html="<h4>Advent.com</h4><p>Advent.com website</p>"
+        >
+          <img
+            className="img-responsive"
+            alt=""
+            src="/images/projects/web-optimumhit_tn.jpg"
+          />
+        </a>
+        <a
+          href="javascript()"
+          data-lg-size="1263-736"
+          className="gallery-item"
+          data-src="/images/projects/web-optimumhit-portal.jpg"
+          data-sub-html="<h4>Advent.com</h4><p>Advent.com website</p>"
+        >
+          <img
+            className="img-responsive"
+            alt=""
+            src="/images/projects/web-optimumhit-portal_tn.jpg"
+          />
+        </a>
+        <a
+          href="javascript()"
+          data-lg-size="1263-736"
+          className="gallery-item"
+          data-src="/images/projects/web-portfoliodata.png"
+          data-sub-html="<h4>Portfolio Data</h4><p>Portfolio Data website</p>"
+        >
+          <img
+            className="img-responsive"
+            alt=""
+            src="/images/projects/web-portfoliodata_tn.jpg"
+          />
+        </a>
+        <a
+          href="javascript()"
+          data-lg-size="1263-736"
+          className="gallery-item"
+          data-src="/images/projects/web-skillmarket.jpg"
+          data-sub-html="<h4>Advent.com</h4><p>Advent.com website</p>"
+        >
+          <img
+            className="img-responsive"
+            alt=""
+            src="/images/projects/web-skillmarket_tn.jpg"
+          />
+        </a>
+        <a
+          href="javascript()"
+          data-lg-size="1263-736"
+          className="gallery-item"
+          data-src="/images/projects/web-skillmarket-consultants.jpg"
+          data-sub-html="<h4>Advent.com</h4><p>Advent.com website</p>"
+        >
+          <img
+            className="img-responsive"
+            alt=""
+            src="/images/projects/web-skillmarket-consultants_tn.jpg"
+          />
+        </a>
+        <a
+          href="javascript()"
+          data-lg-size="1263-736"
+          className="gallery-item"
+          data-src="/images/projects/web-statuspage.jpg"
+          data-sub-html="<h4>Advent.com</h4><p>Advent.com website</p>"
+        >
+          <img
+            className="img-responsive"
+            alt=""
+            src="/images/projects/web-statuspage_tn.jpg"
+          />
+        </a>
+        <a
+          href="javascript()"
+          data-lg-size="1263-736"
+          className="gallery-item"
+          data-src="/images/projects/web-uahn.jpg"
+          data-sub-html="<h4>Advent.com</h4><p>Advent.com website</p>"
+        >
+          <img
+            className="img-responsive"
+            alt=""
+            src="/images/projects/web-uahn_tn.jpg"
+          />
+        </a>
+        <a
+          href="javascript()"
+          data-lg-size="1263-736"
+          className="gallery-item"
+          data-src="/images/projects/web-uci.jpg"
+          data-sub-html="<h4>Advent.com</h4><p>Advent.com website</p>"
+        >
+          <img
+            className="img-responsive"
+            alt=""
+            src="/images/projects/web-uci_tn.jpg"
           />
         </a>
       </LightGallery>
