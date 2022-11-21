@@ -3,7 +3,8 @@ import "./Footer.css";
 function Footer() {
   return (
     <div>
-      <footer>Footer</footer>
+      Copyright © {new Date().getFullYear()} Jonathan Hustead. All rights
+      reserved.
     </div>
   );
 }

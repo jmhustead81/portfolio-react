@@ -4,8 +4,9 @@ import "lightgallery/css/lg-zoom.css";
 import "lightgallery/css/lg-thumbnail.css";
 import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgZoom from "lightgallery/plugins/zoom";
+import "./Projects.css";
 
-function Gallery() {
+function Projects() {
   const onInit = () => {
     console.debug("lightGallery has been initialized");
   };
@@ -180,4 +181,4 @@ function Gallery() {
   );
 }
 
-export default Gallery;
+export default Projects;
