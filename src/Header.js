@@ -7,12 +7,16 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Button from "@mui/material/Button";
-import MenuItem from "@mui/material/MenuItem";
-import BadgeIcon from "@mui/icons-material/AssignmentInd";
+import Link from "@mui/material/Link";
 import "./Header.css";
 
-const pages = ["About", "Education", "Skills", "Projects", "Contact"];
+const pages = [
+  { name: "About", url: "#nav-about" },
+  { name: "Skills", url: "#nav-skills" },
+  { name: "Education", url: "#nav-education" },
+  { name: "Projects", url: "#nav-projects" },
+  { name: "Contact", url: "#nav-contact" },
+];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -27,10 +31,9 @@ function Header() {
 
   return (
     <div>
-      <AppBar position="fixed">
-        <Container maxWidth="xl">
+      <AppBar position="static">
+        <Container fixed id="nav-header">
           <Toolbar disableGutters>
-            <BadgeIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
             <Typography
               variant="h6"
               noWrap
@@ -39,20 +42,18 @@ function Header() {
               sx={{
                 mr: 2,
                 display: { xs: "none", md: "flex" },
-                fontFamily: "monospace",
                 fontWeight: 700,
-                letterSpacing: ".3rem",
+                letterSpacing: "normal",
                 color: "inherit",
                 textDecoration: "none",
               }}
             >
               JH
             </Typography>
-
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
               <IconButton
                 size="large"
-                aria-label="account of current user"
+                aria-label="main menu"
                 aria-controls="menu-appbar"
                 aria-haspopup="true"
                 onClick={handleOpenNavMenu}
@@ -78,26 +79,33 @@ function Header() {
                   display: { xs: "block", md: "none" },
                 }}
               >
-                {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
-                  </MenuItem>
+                {pages.map((page, index) => (
+                  <Link
+                    key={index}
+                    href={page.url}
+                    style={{
+                      padding: "4px 12px",
+                      color: "black",
+                      textDecoration: "none",
+                      display: "block",
+                    }}
+                  >
+                    {page.name}
+                  </Link>
                 ))}
               </Menu>
             </Box>
-
             <Typography
               variant="h5"
               noWrap
               component="a"
-              href="/"
+              href=""
               sx={{
                 mr: 2,
                 display: { xs: "flex", md: "none" },
                 flexGrow: 1,
-                fontFamily: "monospace",
                 fontWeight: 700,
-                letterSpacing: ".3rem",
+                letterSpacing: "normal",
                 color: "inherit",
                 textDecoration: "none",
               }}
@@ -105,14 +113,18 @@ function Header() {
               Jonathan Hustead
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-              {pages.map((page) => (
-                <Button
-                  key={page}
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "white", display: "block" }}
+              {pages.map((page, index) => (
+                <Link
+                  key={index}
+                  href={page.url}
+                  style={{
+                    padding: "6px 4px",
+                    color: "white",
+                    textDecoration: "none",
+                  }}
                 >
-                  {page}
-                </Button>
+                  {page.name}
+                </Link>
               ))}
             </Box>
           </Toolbar>

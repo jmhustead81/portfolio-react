@@ -1,3 +1,6 @@
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import Container from "@mui/material/Container";
 import SkillBar from "react-skillbars";
 import "./Skills.css";
 
@@ -22,8 +25,14 @@ function Skills() {
 
   return (
     <div>
-      <h1>Skills</h1>
-      <SkillBar skills={skills} colors={colors} height={15} />
+      <Container fixed id="nav-skills">
+        <h1>Skills</h1>
+        <Card>
+          <CardContent>
+            <SkillBar skills={skills} colors={colors} height={15} />
+          </CardContent>
+        </Card>
+      </Container>
     </div>
   );
 }

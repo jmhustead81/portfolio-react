@@ -1,0 +1,9 @@
+.lg-react-element {
+  text-align: center;
+}
+
+.lg-react-element > a {
+  display: inline-block;
+  padding: 5px;
+  vertical-align: middle;
+}

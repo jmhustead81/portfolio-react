@@ -1,0 +1,20 @@
+html,
+body {
+  background-color: #4d4f5e !important;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-shadow: 1px 1px 0 #008081 !important;
+  color: #000000 !important;
+}
+
+.MuiCard-root {
+  background-color: #9b9ba3 !important;
+  box-shadow: 2px 2px 0 #612597 !important;
+}

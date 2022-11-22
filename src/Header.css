@@ -1,0 +1,10 @@
+header,
+.MuiList-root.MuiMenu-list {
+  background-color: #180350 !important;
+}
+
+.MuiSvgIcon-root,
+.MuiList-root.MuiMenu-list a,
+header a {
+  color: #ffffff !important;
+}
