@@ -10,6 +10,7 @@ import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
 import DeveloperBoardIcon from "@mui/icons-material/DeveloperBoard";
 import AutoGraphIcon from "@mui/icons-material/AutoGraph";
+import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
 import SchoolIcon from "@mui/icons-material/School";
 import PsychologyAltIcon from "@mui/icons-material/PsychologyAlt";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
@@ -18,6 +19,7 @@ import "./Header.css";
 const pages = [
   { name: "About", url: "#nav-about" },
   { name: "Skills", url: "#nav-skills" },
+  { name: "Experience", url: "#nav-experience" },
   { name: "Education", url: "#nav-education" },
   { name: "Projects", url: "#nav-projects" },
   { name: "Contact", url: "#nav-contact" },
@@ -53,7 +55,7 @@ function Header() {
                 textDecoration: "none",
               }}
             >
-              Jonathan Hustead's Online Portfolio
+              Jonathan Hustead
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
               <IconButton
@@ -97,9 +99,10 @@ function Header() {
                   >
                     {index === 0 ? <PsychologyAltIcon /> : ""}
                     {index === 1 ? <AutoGraphIcon /> : ""}
-                    {index === 2 ? <SchoolIcon /> : ""}
-                    {index === 3 ? <DeveloperBoardIcon /> : ""}
-                    {index === 4 ? <ContactMailIcon /> : ""}
+                    {index === 2 ? <WorkHistoryIcon /> : ""}
+                    {index === 3 ? <SchoolIcon /> : ""}
+                    {index === 4 ? <DeveloperBoardIcon /> : ""}
+                    {index === 5 ? <ContactMailIcon /> : ""}
                     {page.name}
                   </Link>
                 ))}
@@ -135,9 +138,10 @@ function Header() {
                 >
                   {index === 0 ? <PsychologyAltIcon /> : ""}
                   {index === 1 ? <AutoGraphIcon /> : ""}
-                  {index === 2 ? <SchoolIcon /> : ""}
-                  {index === 3 ? <DeveloperBoardIcon /> : ""}
-                  {index === 4 ? <ContactMailIcon /> : ""}
+                  {index === 2 ? <WorkHistoryIcon /> : ""}
+                  {index === 3 ? <SchoolIcon /> : ""}
+                  {index === 4 ? <DeveloperBoardIcon /> : ""}
+                  {index === 5 ? <ContactMailIcon /> : ""}
                   {page.name}
                 </Link>
               ))}

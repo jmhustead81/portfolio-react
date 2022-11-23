@@ -12,12 +12,20 @@ h2 {
   margin-bottom: 0;
 }
 
+#nav-about {
+  margin-top: 25px;
+}
+
 #nav-about,
 #nav-contact,
 #nav-education,
 #nav-projects,
 #nav-skills {
   margin-bottom: 35px;
+}
+
+.MuiPaper-root.MuiMenu-paper.MuiPaper-root.MuiPopover-paper {
+  border-radius: 0;
 }
 
 .MuiCard-root {
@@ -30,8 +38,22 @@ h2 {
   padding-bottom: 16px !important;
 }
 
+@media (min-width: 874px) {
+  #nav-about {
+    margin-top: auto;
+  }
+
+  #nav-about,
+  #nav-contact,
+  #nav-education,
+  #nav-projects,
+  #nav-skills {
+    margin-bottom: 20px;
+  }
+}
+
 @media (min-width: 600px) {
-  .css-r6ewbb-MuiToolbar-root {
+  .MuiToolbar-root {
     min-height: auto !important;
   }
 }
