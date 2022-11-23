@@ -38,8 +38,8 @@ function Header() {
 
   return (
     <div>
-      <AppBar position="static">
-        <Container fixed id="nav-header">
+      <AppBar position="fixed">
+        <Container fixed>
           <Toolbar disableGutters>
             <Typography
               variant="h6"

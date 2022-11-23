@@ -11,7 +11,8 @@ import "./Projects.css";
 function Projects() {
   return (
     <div>
-      <Container fixed id="nav-projects">
+      <div id="nav-projects" class="menu-anchor"></div>
+      <Container fixed>
         <h1>Projects</h1>
         <LinearProgress color="secondary" />
         <LightGallery

@@ -11,7 +11,8 @@ import "./Experience.css";
 function Experience() {
   return (
     <div>
-      <Container fixed id="nav-education">
+      <div id="nav-experience" class="menu-anchor"></div>
+      <Container fixed>
         <h1>Experience</h1>
         <LinearProgress color="secondary" />
         <VerticalTimeline>

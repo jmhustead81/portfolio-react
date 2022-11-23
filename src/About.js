@@ -7,7 +7,8 @@ import "./About.css";
 function About() {
   return (
     <div>
-      <Container fixed id="nav-about">
+      <div id="nav-about" class="menu-anchor"></div>
+      <Container fixed>
         <h1>About</h1>
         <LinearProgress color="secondary" />
         <Card>

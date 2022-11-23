@@ -7,7 +7,8 @@ import "./Contact.css";
 function Contact() {
   return (
     <div>
-      <Container fixed id="nav-contact">
+      <div id="nav-contact" class="menu-anchor"></div>
+      <Container fixed>
         <h1>Contact</h1>
         <LinearProgress color="secondary" />
         <Card>

@@ -38,7 +38,8 @@ function Skills() {
 
   return (
     <div>
-      <Container fixed id="nav-skills">
+      <div id="nav-skills" class="menu-anchor"></div>
+      <Container fixed>
         <h1>Skills</h1>
         <LinearProgress color="secondary" />
         <Card>

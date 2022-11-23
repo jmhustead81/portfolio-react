@@ -4,6 +4,10 @@ body {
   scroll-behavior: smooth;
 }
 
+body {
+  padding-top: 43px;
+}
+
 h1,
 h2 {
   text-shadow: 2px 2px 0 #461580 !important;
@@ -12,20 +16,19 @@ h2 {
   margin-bottom: 0;
 }
 
-#nav-about {
-  margin-top: 25px;
-}
-
-#nav-about,
-#nav-contact,
-#nav-education,
-#nav-projects,
-#nav-skills {
-  margin-bottom: 35px;
+.menu-anchor {
+  position: relative;
+  bottom: 78px;
+  left: 0;
+  right: 0;
 }
 
 .MuiPaper-root.MuiMenu-paper.MuiPaper-root.MuiPopover-paper {
   border-radius: 0;
+}
+
+.MuiContainer-root > h1 {
+  margin-top: 30px;
 }
 
 .MuiCard-root {
@@ -38,22 +41,6 @@ h2 {
   padding-bottom: 16px !important;
 }
 
-@media (min-width: 874px) {
-  #nav-about {
-    margin-top: auto;
-  }
-
-  #nav-about,
-  #nav-contact,
-  #nav-education,
-  #nav-projects,
-  #nav-skills {
-    margin-bottom: 20px;
-  }
-}
-
-@media (min-width: 600px) {
-  .MuiToolbar-root {
-    min-height: auto !important;
-  }
+.MuiToolbar-root {
+  min-height: auto !important;
 }

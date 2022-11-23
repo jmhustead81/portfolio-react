@@ -11,7 +11,8 @@ import "./Education.css";
 function Education() {
   return (
     <div>
-      <Container fixed id="nav-education">
+      <div id="nav-education" class="menu-anchor"></div>
+      <Container fixed>
         <h1>Education</h1>
         <LinearProgress color="secondary" />
         <VerticalTimeline>
