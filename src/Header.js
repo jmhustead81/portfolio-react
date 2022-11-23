@@ -8,6 +8,11 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
+import DeveloperBoardIcon from "@mui/icons-material/DeveloperBoard";
+import AutoGraphIcon from "@mui/icons-material/AutoGraph";
+import SchoolIcon from "@mui/icons-material/School";
+import PsychologyAltIcon from "@mui/icons-material/PsychologyAlt";
+import ContactMailIcon from "@mui/icons-material/ContactMail";
 import "./Header.css";
 
 const pages = [
@@ -48,7 +53,7 @@ function Header() {
                 textDecoration: "none",
               }}
             >
-              JH
+              Jonathan Hustead's Online Portfolio
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
               <IconButton
@@ -90,6 +95,11 @@ function Header() {
                       display: "block",
                     }}
                   >
+                    {index === 0 ? <PsychologyAltIcon /> : ""}
+                    {index === 1 ? <AutoGraphIcon /> : ""}
+                    {index === 2 ? <SchoolIcon /> : ""}
+                    {index === 3 ? <DeveloperBoardIcon /> : ""}
+                    {index === 4 ? <ContactMailIcon /> : ""}
                     {page.name}
                   </Link>
                 ))}
@@ -123,6 +133,11 @@ function Header() {
                     textDecoration: "none",
                   }}
                 >
+                  {index === 0 ? <PsychologyAltIcon /> : ""}
+                  {index === 1 ? <AutoGraphIcon /> : ""}
+                  {index === 2 ? <SchoolIcon /> : ""}
+                  {index === 3 ? <DeveloperBoardIcon /> : ""}
+                  {index === 4 ? <ContactMailIcon /> : ""}
                   {page.name}
                 </Link>
               ))}

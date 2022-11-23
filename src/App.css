@@ -1,20 +1,37 @@
 html,
 body {
-  background-color: #4d4f5e !important;
+  background-color: #000000 !important;
   scroll-behavior: smooth;
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-shadow: 1px 1px 0 #008081 !important;
-  color: #000000 !important;
+h2 {
+  text-shadow: 2px 2px 0 #461580 !important;
+  color: #20a0a1 !important;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+#nav-about,
+#nav-contact,
+#nav-education,
+#nav-projects,
+#nav-skills {
+  margin-bottom: 35px;
 }
 
 .MuiCard-root {
   background-color: #9b9ba3 !important;
-  box-shadow: 2px 2px 0 #612597 !important;
+  box-shadow: 4px 4px 0 #008081 !important;
+  border-radius: 0 !important;
+}
+
+.MuiCardContent-root:last-child {
+  padding-bottom: 16px !important;
+}
+
+@media (min-width: 600px) {
+  .css-r6ewbb-MuiToolbar-root {
+    min-height: auto !important;
+  }
 }

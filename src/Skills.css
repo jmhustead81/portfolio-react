@@ -1,0 +1,22 @@
+.skillbar {
+  margin-bottom: 5px;
+}
+
+.skillbar:last-child {
+  margin-bottom: 0;
+}
+
+.skillbar-title,
+.skillbar-bar {
+  border-radius: 0;
+}
+
+.skillbar-title span {
+  padding: 0 10px;
+  border-radius: 0;
+}
+
+.skillbar-percent {
+  position: relative;
+  left: 120px;
+}

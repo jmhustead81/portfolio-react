@@ -1,9 +1,14 @@
-.lg-react-element {
-  text-align: center;
-}
-
 .lg-react-element > a {
   display: inline-block;
   padding: 5px;
   vertical-align: middle;
+  position: relative;
+  text-align: center;
+}
+
+.lg-react-element > a:active,
+.lg-react-element > a:focus,
+.lg-react-element > a:hover {
+  top: -1px;
+  right: -1px;
 }

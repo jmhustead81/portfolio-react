@@ -2,24 +2,37 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Container from "@mui/material/Container";
 import SkillBar from "react-skillbars";
+import LinearProgress from "@mui/material/LinearProgress";
 import "./Skills.css";
 
 function Skills() {
   const skills = [
-    { type: "Java", level: 100 },
-    { type: "React", level: 85 },
-    { type: "Javascript", level: 75 },
-    { type: "Spring", level: 50 },
-    { type: "Docker", level: 25 },
-    { type: "HTML", level: 20 },
-    { type: "NoSQL", level: 0 },
+    { type: "HTML", level: 100 },
+    { type: "CSS", level: 100 },
+    { type: "Javascript", level: 100 },
+    { type: "jQuery", level: 100 },
+    { type: "Bootstrap", level: 100 },
+    { type: "MVC", level: 100 },
+    { type: "AngularJS", level: 85 },
+    { type: ".NET / Core", level: 85 },
+    { type: "APIs", level: 75 },
+    { type: "Razor Views", level: 75 },
+    { type: "Responsive", level: 100 },
+    { type: "Cross-browser", level: 100 },
+    { type: "Agile", level: 100 },
+    { type: "SCRUM", level: 100 },
+    { type: "E-commerce", level: 70 },
+    { type: "Wordpress", level: 65 },
+    { type: "Photoshop", level: 50 },
+    { type: "ReactJS", level: 25 },
+    { type: "PHP", level: 25 },
   ];
 
   const colors = {
-    bar: "#3498db",
+    bar: "#018a5c",
     title: {
-      text: "#fff",
-      background: "#2980b9",
+      text: "#20a0a1",
+      background: "#180350",
     },
   };
 
@@ -27,9 +40,15 @@ function Skills() {
     <div>
       <Container fixed id="nav-skills">
         <h1>Skills</h1>
+        <LinearProgress color="secondary" />
         <Card>
           <CardContent>
-            <SkillBar skills={skills} colors={colors} height={15} />
+            <SkillBar
+              skills={skills}
+              colors={colors}
+              height={20}
+              animationDuration={2000}
+            />
           </CardContent>
         </Card>
       </Container>

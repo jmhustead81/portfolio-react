@@ -1,4 +1,5 @@
 import Container from "@mui/material/Container";
+import LinearProgress from "@mui/material/LinearProgress";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -14,6 +15,7 @@ function Education() {
     <div>
       <Container fixed id="nav-education">
         <h1>Education</h1>
+        <LinearProgress color="secondary" />
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
