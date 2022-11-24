@@ -1,0 +1,25 @@
+#contactFormHoney {
+  display: none;
+  visibility: hidden;
+}
+
+.MuiFormControl-root {
+  width: 100%;
+}
+
+.MuiInputBase-formControl {
+  margin-bottom: 10px;
+}
+
+.MuiFormLabel-root {
+  color: #018a5c !important;
+}
+
+.MuiSvgIcon-root {
+  color: #ffffff !important;
+}
+
+.MuiInputBase-root {
+  background-color: #262837 !important;
+  color: #ffffff !important;
+}

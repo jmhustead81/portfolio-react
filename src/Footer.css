@@ -8,13 +8,13 @@ footer {
   margin-top: 45px;
 }
 
-footer ul {
-  font-weight: 400;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
+footer .MuiLink-root {
+  color: #20a0a1 !important;
+  text-decoration: none !important;
 }
 
-footer p {
-  margin: 0;
+footer .MuiLink-root:active,
+footer .MuiLink-root:focus,
+footer .MuiLink-root:hover {
+  text-decoration: underline !important;
 }

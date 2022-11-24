@@ -11,7 +11,7 @@ import "./Projects.css";
 function Projects() {
   return (
     <div>
-      <div id="nav-projects" class="menu-anchor"></div>
+      <div id="nav-projects" className="menu-anchor"></div>
       <Container fixed>
         <h1>Projects</h1>
         <LinearProgress color="secondary" />

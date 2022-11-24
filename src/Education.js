@@ -5,44 +5,43 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@mui/icons-material/School";
+import SystemSecurityUpdateGoodIcon from "@mui/icons-material/SystemSecurityUpdateGood";
+import PermDeviceInformationIcon from "@mui/icons-material/PermDeviceInformation";
 import "./Education.css";
 
 function Education() {
   return (
     <div>
-      <div id="nav-education" class="menu-anchor"></div>
+      <div id="nav-education" className="menu-anchor"></div>
       <Container fixed>
         <h1>Education</h1>
         <LinearProgress color="secondary" />
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="April 2013"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            icon={<SchoolIcon />}
+            className="vertical-timeline-element-education vertical-timeline-element-education-latest"
+            date="2007"
+            icon={<SystemSecurityUpdateGoodIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              Content Marketing for Web, Mobile and Social Media
+              Master of Science
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Online Course
+              Management Information Systems
             </h4>
-            <p>Strategy, Social Media</p>
+            <p>University of Central Florida, Orlando, FL</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="2002 - 2006"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            icon={<SchoolIcon />}
+            className="vertical-timeline-element-education"
+            date="2005"
+            icon={<PermDeviceInformationIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              Bachelor of Science in Interactive Digital Media Visual Imaging
+              Bachelor of Science
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Bachelor Degree
+              Information Technology
             </h4>
-            <p>Creative Direction, Visual Design</p>
+            <p>University of Central Florida, Orlando, FL</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </Container>

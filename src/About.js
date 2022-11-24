@@ -2,17 +2,46 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Container from "@mui/material/Container";
 import LinearProgress from "@mui/material/LinearProgress";
+import Avatar from "@mui/material/Avatar";
+import Link from "@mui/material/Link";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import HistoryEduIcon from "@mui/icons-material/HistoryEdu";
 import "./About.css";
 
 function About() {
   return (
     <div>
-      <div id="nav-about" class="menu-anchor"></div>
+      <div id="nav-about" className="menu-anchor"></div>
       <Container fixed>
         <h1>About</h1>
         <LinearProgress color="secondary" />
         <Card>
           <CardContent>
+            <Avatar
+              alt="Jonathan Hustead"
+              src="/images/profile.jpg"
+              sx={{ width: 56, height: 56 }}
+            />
+            <Link
+              href="https://www.linkedin.com/in/jmhustead"
+              target="_blank"
+              rel="noreferrer"
+              title="LinkedIn"
+            >
+              <LinkedInIcon fontSize="large" />
+            </Link>
+            <Link
+              href="https://github.com/jmhustead81"
+              target="_blank"
+              rel="noreferrer"
+              title="GitHub"
+            >
+              <GitHubIcon fontSize="large" />
+            </Link>
+            <Link href="#" title="Resume">
+              <HistoryEduIcon fontSize="large" />
+            </Link>
             <h3>
               A web programmer with an incessant drive for perfection, who
               excels at improving himself, his team, and company.

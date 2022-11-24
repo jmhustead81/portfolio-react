@@ -6,23 +6,23 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import WorkIcon from "@mui/icons-material/Work";
+import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
+import Diversity3Icon from "@mui/icons-material/Diversity3";
+import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import "./Experience.css";
 
 function Experience() {
   return (
     <div>
-      <div id="nav-experience" class="menu-anchor"></div>
+      <div id="nav-experience" className="menu-anchor"></div>
       <Container fixed>
         <h1>Experience</h1>
         <LinearProgress color="secondary" />
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            className="vertical-timeline-element-work vertical-timeline-element-work-latest"
             date="August 2018 - Present"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            icon={<WorkIcon />}
+            icon={<BusinessCenterIcon />}
           >
             <h3 className="vertical-timeline-element-title">
               Staff Software Engineer
@@ -35,43 +35,49 @@ function Experience() {
             <p>Details here.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2010 - 2011"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            icon={<WorkIcon />}
+            className="vertical-timeline-element-work"
+            date="June 2016 - June 2018"
+            icon={<Diversity3Icon />}
           >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
+            <h3 className="vertical-timeline-element-title">
+              Web Marketing Manager
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              San Francisco, CA
+              Optimum Healthcare IT
+              <br />
+              Jacksonville Beach, FL
             </h4>
-            <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
-            </p>
+            <p>Details here.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2008 - 2010"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            className="vertical-timeline-element-work"
+            date="June 2015 - June 2016"
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
+            <h3 className="vertical-timeline-element-title">
+              Senior UI Engineer
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Los Angeles, CA
+              Clearsense
+              <br />
+              Jacksonville Beach, FL
             </h4>
-            <p>User Experience, Visual Design</p>
+            <p>Details here.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2006 - 2008"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            icon={<WorkIcon />}
+            className="vertical-timeline-element-work"
+            date="May 2010 - June 2015"
+            icon={<WorkOutlineIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
+            <h3 className="vertical-timeline-element-title">
+              Lead Front-End Developer
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              San Francisco, CA
+              Fanatics
+              <br />
+              Jacksonville, FL
             </h4>
-            <p>User Experience, Visual Design</p>
+            <p>Details here.</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </Container>

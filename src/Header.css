@@ -1,9 +1,9 @@
 header,
 .MuiList-root.MuiMenu-list {
   background-color: #461580 !important;
+  color: #ffffff;
 }
 
-.MuiSvgIcon-root,
 .MuiList-root.MuiMenu-list a,
 header a {
   color: #efefef !important;

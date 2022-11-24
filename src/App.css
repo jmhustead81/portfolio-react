@@ -34,7 +34,10 @@ h2 {
 .MuiCard-root {
   background-color: #9b9ba3 !important;
   box-shadow: 4px 4px 0 #008081 !important;
-  border-radius: 0 !important;
+  border-top-left-radius: 24px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 24px !important;
 }
 
 .MuiCardContent-root:last-child {
@@ -43,4 +46,12 @@ h2 {
 
 .MuiToolbar-root {
   min-height: auto !important;
+}
+
+.MuiInputBase-root.MuiFilledInput-root:after {
+  border-bottom-color: #018a5c !important;
+}
+
+.MuiButtonBase-root.MuiButton-containedPrimary {
+  background-color: #018a5c !important;
 }

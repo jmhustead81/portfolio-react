@@ -38,7 +38,7 @@ function Skills() {
 
   return (
     <div>
-      <div id="nav-skills" class="menu-anchor"></div>
+      <div id="nav-skills" className="menu-anchor"></div>
       <Container fixed>
         <h1>Skills</h1>
         <LinearProgress color="secondary" />
