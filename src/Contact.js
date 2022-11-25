@@ -129,6 +129,7 @@ function Contact() {
                     id="resume-download-btn"
                     variant="contained"
                     href="/docs/Resume_Jonathan-Hustead_Front-End-Software-Engineer.pdf"
+                    target="_blank"
                     startIcon={<DownloadIcon />}
                   >
                     Download Résumé

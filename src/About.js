@@ -53,6 +53,7 @@ function About() {
                 </Link>
                 <Link
                   href="/docs/Resume_Jonathan-Hustead_Front-End-Software-Engineer.pdf"
+                  target="_blank"
                   className="about-btn"
                   title="Download my Résumé"
                 >
