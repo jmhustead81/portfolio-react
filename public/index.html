@@ -40,11 +40,38 @@
     <meta name="msapplication-TileColor" content="#00aba9" />
     <meta name="theme-color" content="#ffffff" />
     <title>Jonathan Hustead's Online Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   </head>
   <body>
     <noscript>
       Please enable JavaScript in your browser to view this site properly.
     </noscript>
     <root id="root"></root>
+    <script>
+      $(function () {
+        $('a[href*="#"]:not([href="#"])').click(function () {
+          if (
+            window.location.pathname.replace(/^\//, "") ===
+              this.pathname.replace(/^\//, "") &&
+            window.location.hostname === this.hostname
+          ) {
+            var target = $(this.hash);
+            target = target.length
+              ? target
+              : $("[name=" + this.hash.slice(1) + "]");
+            if (target.length) {
+              $("html, body").animate(
+                {
+                  scrollTop: target.offset().top,
+                },
+                400
+              );
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+    >
   </body>
 </html>

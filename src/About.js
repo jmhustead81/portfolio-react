@@ -24,7 +24,7 @@ function About() {
           About
         </h1>
         <LinearProgress color="secondary" aria-label="about-decorative" />
-        <Card>
+        <Card id="about-card">
           <CardContent>
             <Grid container wrap="nowrap" spacing={2}>
               <Grid item>
@@ -84,7 +84,7 @@ function About() {
                   everything from create online communities to share vital
                   statistics.
                 </p>
-                <h4>I'm excited to see what's next!</h4>
+                <strong>I'm excited to see what's next!</strong>
               </Grid>
             </Grid>
           </CardContent>

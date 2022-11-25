@@ -1,9 +1,5 @@
-h3 {
-  margin-top: 0 !important;
-}
-
-h4 {
-  margin-bottom: 0;
+#about-card .MuiGrid-item a {
+  display: inline-block;
 }
 
 .MuiAvatar-root {
