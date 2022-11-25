@@ -1,0 +1,15 @@
+{
+    "name": "Jonathan Hustead's Online Portfolio",
+    "short_name": "Jonathan Hustead's Online Portfolio",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png?v=2",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "https://jonathanhustead.com",
+    "display": "standalone"
+}
