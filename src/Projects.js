@@ -26,6 +26,7 @@ function Projects() {
           speed={500}
           plugins={[lgThumbnail, lgZoom]}
           mode="lg-fade"
+          licenseKey="607EE3A0-C59349B4-B11314B6-4F98A9EF"
         >
           <a
             href="javascript()"
