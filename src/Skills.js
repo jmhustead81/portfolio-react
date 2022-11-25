@@ -12,7 +12,7 @@ function Skills() {
     { type: "CSS", level: 100 },
     { type: "jQuery", level: 100 },
     { type: "Bootstrap", level: 100 },
-    { type: "Kendo UI", level: 100 },
+    { type: "KendoUI", level: 100 },
     { type: "MVC", level: 100 },
     { type: ".NET", level: 100 },
     { type: ".NET Core", level: 85 },

@@ -43,7 +43,7 @@ function Experience() {
               Oversee all UI and UX design elements by working directly with
               development and design teams. Set page templates and design
               patterns for team. Create full front-end layouts and architecture
-              using .NET, .NET Core, MVC, AngularJS, jQuery, and Kendo.
+              using .NET, .NET Core, MVC, AngularJS, jQuery, and KendoUI.
               Prototype functionality with stakeholders before connecting to
               APIs to pull real data.
             </p>
@@ -59,7 +59,7 @@ function Experience() {
             <h4 className="vertical-timeline-element-subtitle">
               Optimum Healthcare IT
               <br />
-              Jacksonville Beach, FL
+              Jacksonville, FL
             </h4>
             <p>
               Paired with the Creative Director and worked on internal and
@@ -77,7 +77,7 @@ function Experience() {
             <h4 className="vertical-timeline-element-subtitle">
               Clearsense
               <br />
-              Jacksonville Beach, FL
+              Jacksonville, FL
             </h4>
             <p>
               Helped a startup team by establishing and making UI and UX

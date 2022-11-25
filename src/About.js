@@ -61,9 +61,10 @@ function About() {
               </Grid>
               <Grid item xs>
                 <h3>
-                  I am a software engineer who will improve your website by
-                  making it look nicer, run faster, and appeal to a much larger
-                  audience in a much shorter timeframe than you'd expect.
+                  I am a front-end focused software engineer who will improve
+                  your website by making it look nicer, run faster, and appeal
+                  to a much larger audience in a much shorter timeframe than
+                  you'd expect.
                 </h3>
                 <p>
                   I've been creating webpages since Web 1.0 in the late 1990's.
