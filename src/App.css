@@ -55,3 +55,17 @@ h2 {
 .MuiButtonBase-root.MuiButton-containedPrimary {
   background-color: #018a5c !important;
 }
+
+.lg-react-element {
+  text-align: center;
+}
+
+.header-icon {
+  position: relative;
+  bottom: -5px;
+  margin-right: 5px;
+}
+
+.header-icon path {
+  fill: #20a0a1;
+}

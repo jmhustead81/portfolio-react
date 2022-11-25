@@ -6,6 +6,7 @@ import "lightgallery/css/lg-zoom.css";
 import "lightgallery/css/lg-thumbnail.css";
 import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgZoom from "lightgallery/plugins/zoom";
+import DeveloperBoardIcon from "@mui/icons-material/DeveloperBoard";
 import "./Projects.css";
 
 function Projects() {
@@ -13,7 +14,13 @@ function Projects() {
     <div>
       <div id="nav-projects" className="menu-anchor"></div>
       <Container fixed>
-        <h1>Projects</h1>
+        <h1>
+          <DeveloperBoardIcon
+            className="header-icon"
+            sx={{ width: 32, height: 32 }}
+          />
+          Projects
+        </h1>
         <LinearProgress color="secondary" />
         <LightGallery
           speed={500}

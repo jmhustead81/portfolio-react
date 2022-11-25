@@ -8,6 +8,7 @@ import TextField from "@mui/material/TextField";
 import MenuItem from "@mui/material/MenuItem";
 import Button from "@mui/material/Button";
 import SendIcon from "@mui/icons-material/Send";
+import ContactMailIcon from "@mui/icons-material/ContactMail";
 import "./Contact.css";
 
 const reasons = [
@@ -40,7 +41,13 @@ function Contact() {
     <div>
       <div id="nav-contact" className="menu-anchor"></div>
       <Container fixed>
-        <h1>Contact</h1>
+        <h1>
+          <ContactMailIcon
+            className="header-icon"
+            sx={{ width: 32, height: 32 }}
+          />
+          Contact
+        </h1>
         <LinearProgress color="secondary" />
         <Card>
           <CardContent>

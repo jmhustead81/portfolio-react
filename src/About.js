@@ -4,9 +4,11 @@ import Container from "@mui/material/Container";
 import LinearProgress from "@mui/material/LinearProgress";
 import Avatar from "@mui/material/Avatar";
 import Link from "@mui/material/Link";
+import Grid from "@mui/material/Grid";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import HistoryEduIcon from "@mui/icons-material/HistoryEdu";
+import FileDownloadIcon from "@mui/icons-material/FileDownload";
+import PsychologyAltIcon from "@mui/icons-material/PsychologyAlt";
 import "./About.css";
 
 function About() {
@@ -14,66 +16,69 @@ function About() {
     <div>
       <div id="nav-about" className="menu-anchor"></div>
       <Container fixed>
-        <h1>About</h1>
+        <h1>
+          <PsychologyAltIcon
+            className="header-icon"
+            sx={{ width: 32, height: 32 }}
+          />
+          About
+        </h1>
         <LinearProgress color="secondary" />
         <Card>
           <CardContent>
-            <Avatar
-              alt="Jonathan Hustead"
-              src="/images/profile.jpg"
-              sx={{ width: 56, height: 56 }}
-            />
-            <Link
-              href="https://www.linkedin.com/in/jmhustead"
-              target="_blank"
-              rel="noreferrer"
-              title="LinkedIn"
-            >
-              <LinkedInIcon fontSize="large" />
-            </Link>
-            <Link
-              href="https://github.com/jmhustead81"
-              target="_blank"
-              rel="noreferrer"
-              title="GitHub"
-            >
-              <GitHubIcon fontSize="large" />
-            </Link>
-            <Link href="#" title="Resume">
-              <HistoryEduIcon fontSize="large" />
-            </Link>
-            <h3>
-              A web programmer with an incessant drive for perfection, who
-              excels at improving himself, his team, and company.
-            </h3>
-            <p>
-              I've been creating websites and games since middle school. Out of
-              necessity, I taught myself HTML, CSS, and SQL to get the word out
-              of my latest projects. After countless hours of setting up remote
-              servers over SSH, transferring files over SFTP, and configuring
-              CMS settings in high school I decided to pursue my passion with
-              formal college training. Ever since I graduated with my Masters,
-              I've continued learning new web design best practices through
-              books, forums, and conferences. Lately, e-commerce and stat
-              dashboards have empowered me to help consumers and patients get
-              the products and care they need - at the push of a button.
-            </p>
-            <h3>Specialities</h3>
-            <h4>Web Development</h4>
-            <p>
-              Nearly two decades of experience, since the dawn of AOL to the
-              dream of Web 3.0 and everything inbetween.
-            </p>
-            <h4>UI and UX Design</h4>
-            <p>
-              Built for the users, made for simplicity and elegance, and backed
-              by the power of the latest web frameworks.
-            </p>
-            <h4>Unceasing Improvement</h4>
-            <p>
-              Interactions can always be easier, faster, and more intuitive. My
-              endless mission is to identify how, and make it happen.
-            </p>
+            <Grid container wrap="nowrap" spacing={2}>
+              <Grid item>
+                <Avatar
+                  alt="Jonathan Hustead"
+                  src="/images/profile.jpg"
+                  sx={{ width: 96, height: 96 }}
+                />
+                <Link
+                  href="https://www.linkedin.com/in/jmhustead"
+                  target="_blank"
+                  rel="noreferrer"
+                  title="Visit my LinkedIn Page"
+                >
+                  <LinkedInIcon sx={{ width: 28, height: 28 }} />
+                </Link>
+                <Link
+                  href="https://github.com/jmhustead81"
+                  target="_blank"
+                  rel="noreferrer"
+                  title="See my Public GitHub Repository"
+                >
+                  <GitHubIcon sx={{ width: 28, height: 28 }} />
+                </Link>
+                <Link href="#" title="Download my Resume">
+                  <FileDownloadIcon sx={{ width: 28, height: 28 }} />
+                </Link>
+              </Grid>
+              <Grid item xs>
+                <h3>
+                  I am a software engineer who will improve your website by
+                  making it look nicer, run faster, and appeal to a much larger
+                  audience in a much shorter timeframe than you'd expect.
+                </h3>
+                <p>
+                  I've been creating webpages since Web 1.0 in the late 1990's.
+                  In middle school, I taught myself HTML, CSS, and basic
+                  JavaScript so I could build websites to advertise my projects.
+                  A few years later, I delved deeper into the setup process and
+                  learned a bit of Linux so I could setup remote servers and PHP
+                  to customize content management systems like Joomla. By the
+                  end of high school, my passion for programming, configuring,
+                  designing, and maintaining websites set my university path.
+                  Formal classes and the emergence of Web 2.0 were vital to my
+                  later understanding of usage patterns, accessibility (ADA
+                  compliance), and responsive design. Over the past decade, I've
+                  helped dozens of clients create hundreds of e-commerce,
+                  statistical, professional, and personal webpages that do
+                  everything from create online communities to share vital
+                  statistics.
+                </p>
+                <h4>I'm excited to see what's next!</h4>
+              </Grid>
+            </Grid>
           </CardContent>
         </Card>
       </Container>

@@ -1,0 +1,31 @@
+h3 {
+  margin-top: 0 !important;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+.MuiAvatar-root {
+  border-top-left-radius: 24px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 24px !important;
+  border: 4px solid #008081;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .css-1cfjp91-MuiGrid-root {
+    flex-direction: column !important;
+  }
+
+  .css-kpnovy-MuiAvatar-root {
+    text-align: center;
+    margin: 0 auto 10px auto;
+  }
+
+  .css-13i4rnv-MuiGrid-root {
+    text-align: center;
+  }
+}

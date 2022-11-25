@@ -1,6 +1,6 @@
 .lg-react-element > a {
   display: inline-block;
-  padding: 5px;
+  padding: 0 5px 5px 5px;
   vertical-align: middle;
   position: relative;
   text-align: center;
@@ -9,6 +9,6 @@
 .lg-react-element > a:active,
 .lg-react-element > a:focus,
 .lg-react-element > a:hover {
-  top: -1px;
+  top: 1px;
   right: -1px;
 }

@@ -5,8 +5,9 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SystemSecurityUpdateGoodIcon from "@mui/icons-material/SystemSecurityUpdateGood";
+import ManageAccountsIcon from "@mui/icons-material/ManageAccounts";
 import PermDeviceInformationIcon from "@mui/icons-material/PermDeviceInformation";
+import SchoolIcon from "@mui/icons-material/School";
 import "./Education.css";
 
 function Education() {
@@ -14,13 +15,16 @@ function Education() {
     <div>
       <div id="nav-education" className="menu-anchor"></div>
       <Container fixed>
-        <h1>Education</h1>
+        <h1>
+          <SchoolIcon className="header-icon" sx={{ width: 32, height: 32 }} />
+          Education
+        </h1>
         <LinearProgress color="secondary" />
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element-education vertical-timeline-element-education-latest"
             date="2007"
-            icon={<SystemSecurityUpdateGoodIcon />}
+            icon={<ManageAccountsIcon />}
           >
             <h3 className="vertical-timeline-element-title">
               Master of Science

@@ -1,0 +1,48 @@
+.vertical-timeline-element-education .vertical-timeline-element-content-arrow {
+  border-right-color: #9b9ba3 !important;
+}
+
+.vertical-timeline-element-education .vertical-timeline-element-content {
+  background-color: #9b9ba3 !important;
+  color: #000000 !important;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 24px;
+  box-shadow: 2px 2px 0 #612597 !important;
+}
+
+.vertical-timeline-element-education-latest
+  .vertical-timeline-element-content-arrow {
+  border-right-color: #008081 !important;
+}
+
+.vertical-timeline-element-education-latest .vertical-timeline-element-content {
+  background-color: #008081 !important;
+  color: #efefef !important;
+}
+
+@media only screen and (max-width: 1169px) {
+  .vertical-timeline-element-education .vertical-timeline-element-content {
+    border-top-left-radius: 0;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 0;
+  }
+
+  .vertical-timeline-element-icon {
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+    color: #000000;
+  }
+  .vertical-timeline-element-education-latest
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
+    color: #efefef;
+  }
+}

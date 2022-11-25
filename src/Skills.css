@@ -1,9 +1,18 @@
 .skillbar {
   margin-bottom: 5px;
+  overflow: hidden;
 }
 
 .skillbar:last-child {
   margin-bottom: 0;
+}
+
+.skillbar-title {
+  width: 150px;
+}
+
+.skillbar-bar {
+  left: 150px;
 }
 
 .skillbar-title,
@@ -18,5 +27,7 @@
 
 .skillbar-percent {
   position: relative;
-  left: 120px;
+  left: 160px;
+  top: -1px;
+  display: inline-block;
 }

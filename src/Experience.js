@@ -7,8 +7,9 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import WorkIcon from "@mui/icons-material/Work";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
-import Diversity3Icon from "@mui/icons-material/Diversity3";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
+import NextWeekIcon from "@mui/icons-material/NextWeek";
+import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
 import "./Experience.css";
 
 function Experience() {
@@ -16,7 +17,13 @@ function Experience() {
     <div>
       <div id="nav-experience" className="menu-anchor"></div>
       <Container fixed>
-        <h1>Experience</h1>
+        <h1>
+          <WorkHistoryIcon
+            className="header-icon"
+            sx={{ width: 32, height: 32 }}
+          />
+          Experience
+        </h1>
         <LinearProgress color="secondary" />
         <VerticalTimeline>
           <VerticalTimelineElement
@@ -32,12 +39,19 @@ function Experience() {
               <br />
               Jacksonville, FL
             </h4>
-            <p>Details here.</p>
+            <p>
+              Oversee all UI and UX design elements by working directly with
+              development and design teams. Set page templates and design
+              patterns for team. Create full front-end layouts and architecture
+              using .NET, .NET Core, MVC, AngularJS, jQuery, and Kendo.
+              Prototype functionality with stakeholders before connecting to
+              APIs to pull real data.
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element-work"
             date="June 2016 - June 2018"
-            icon={<Diversity3Icon />}
+            icon={<NextWeekIcon />}
           >
             <h3 className="vertical-timeline-element-title">
               Web Marketing Manager
@@ -47,7 +61,10 @@ function Experience() {
               <br />
               Jacksonville Beach, FL
             </h4>
-            <p>Details here.</p>
+            <p>
+              Paired with the Creative Director and worked on internal and
+              external sites using jQuery, HTML, CSS, and PHP with Wordpress.
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element-work"
@@ -62,7 +79,10 @@ function Experience() {
               <br />
               Jacksonville Beach, FL
             </h4>
-            <p>Details here.</p>
+            <p>
+              Helped a startup team by establishing and making UI and UX
+              elements to show to stakeholders using AngularJS, MVC, and jQuery.
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element-work"
@@ -77,7 +97,12 @@ function Experience() {
               <br />
               Jacksonville, FL
             </h4>
-            <p>Details here.</p>
+            <p>
+              Worked directly with IT, design, SEO, and marketing teams to
+              establish design and layout needs. Created prototype pages and
+              styles to establish brands across hundreds of sports merchandise
+              e-commerce stores.
+            </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </Container>
