@@ -23,7 +23,7 @@ function About() {
           />
           About
         </h1>
-        <LinearProgress color="secondary" />
+        <LinearProgress color="secondary" name="about-decorative" />
         <Card>
           <CardContent>
             <Grid container wrap="nowrap" spacing={2}>

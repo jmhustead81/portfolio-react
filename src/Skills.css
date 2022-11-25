@@ -1,3 +1,7 @@
+#skills-card .MuiCardContent-root {
+  background-color: #262837;
+}
+
 .skillbar {
   margin-bottom: 5px;
   overflow: hidden;

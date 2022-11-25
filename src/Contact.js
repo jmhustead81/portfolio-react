@@ -49,8 +49,8 @@ function Contact() {
           />
           Contact
         </h1>
-        <LinearProgress color="secondary" />
-        <Card>
+        <LinearProgress color="secondary" name="contact-decorative" />
+        <Card id="contact-card">
           <CardContent>
             <FormControl>
               <form

@@ -8,9 +8,7 @@ function Footer() {
     <div>
       <footer>
         <Container fixed>
-          <Typography align="center" variant="subtitle2">
-            Copyright © {new Date().getFullYear()} Jonathan Hustead.
-          </Typography>
+          <div>Copyright © {new Date().getFullYear()} Jonathan Hustead.</div>
           <Typography align="center" variant="caption">
             Site design inspired by the&nbsp;
             <Link

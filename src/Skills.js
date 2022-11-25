@@ -43,8 +43,8 @@ function Skills() {
           />
           Skills
         </h1>
-        <LinearProgress color="secondary" />
-        <Card>
+        <LinearProgress color="secondary" name="skills-decorative" />
+        <Card id="skills-card">
           <CardContent>
             <SkillBar
               skills={skills}

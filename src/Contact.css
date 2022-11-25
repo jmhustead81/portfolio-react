@@ -3,6 +3,10 @@
   visibility: hidden;
 }
 
+#contact-card .MuiCardContent-root {
+  background-color: #262837;
+}
+
 .MuiFormControl-root {
   width: 100%;
 }
@@ -16,12 +20,17 @@
 }
 
 .MuiSvgIcon-root {
-  color: #ffffff !important;
+  color: #efefef !important;
 }
 
+#contact-card .MuiInputBase-root .MuiSvgIcon-root {
+  color: #000000 !important;
+}
+
+input:-internal-autofill-selected,
 .MuiInputBase-root {
-  background-color: #262837 !important;
-  color: #ffffff !important;
+  background-color: #efefef !important;
+  color: #000000 !important;
 }
 
 #resume-download-btn {

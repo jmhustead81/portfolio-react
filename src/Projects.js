@@ -21,7 +21,7 @@ function Projects() {
           />
           Projects
         </h1>
-        <LinearProgress color="secondary" />
+        <LinearProgress color="secondary" name="projects-decorative" />
         <LightGallery
           speed={500}
           plugins={[lgThumbnail, lgZoom]}
@@ -30,6 +30,7 @@ function Projects() {
         >
           <a
             href="javascript()"
+            name="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-statuspage.jpg"
@@ -39,10 +40,13 @@ function Projects() {
               className="img-responsive"
               alt=""
               src="/images/projects/web-statuspage_tn.jpg"
+              width="250"
+              height="135"
             />
           </a>
           <a
             href="javascript()"
+            name="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-adventcommunity.jpg"
@@ -52,10 +56,13 @@ function Projects() {
               className="img-responsive"
               alt=""
               src="/images/projects/web-adventcommunity_tn.jpg"
+              width="250"
+              height="146"
             />
           </a>
           <a
             href="javascript()"
+            name="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-adventgate.jpg"
@@ -65,10 +72,13 @@ function Projects() {
               className="img-responsive"
               alt=""
               src="/images/projects/web-adventgate_tn.jpg"
+              width="250"
+              height="123"
             />
           </a>
           <a
             href="javascript()"
+            name="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-adventgate-reskin.jpg"
@@ -78,10 +88,13 @@ function Projects() {
               className="img-responsive"
               alt=""
               src="/images/projects/web-adventgate-reskin_tn.jpg"
+              width="250"
+              height="121"
             />
           </a>
           <a
             href="javascript()"
+            name="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-portfoliodata.png"
@@ -91,10 +104,13 @@ function Projects() {
               className="img-responsive"
               alt=""
               src="/images/projects/web-portfoliodata_tn.jpg"
+              width="250"
+              height="122"
             />
           </a>
           <a
             href="javascript()"
+            name="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-advent.jpg"
@@ -104,10 +120,13 @@ function Projects() {
               className="img-responsive"
               alt=""
               src="/images/projects/web-advent_tn.jpg"
+              width="250"
+              height="147"
             />
           </a>
           <a
             href="javascript()"
+            name="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-optimumhit.jpg"
@@ -117,10 +136,13 @@ function Projects() {
               className="img-responsive"
               alt=""
               src="/images/projects/web-optimumhit_tn.jpg"
+              width="250"
+              height="120"
             />
           </a>
           <a
             href="javascript()"
+            name="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-optimumhit-portal.jpg"
@@ -130,10 +152,13 @@ function Projects() {
               className="img-responsive"
               alt=""
               src="/images/projects/web-optimumhit-portal_tn.jpg"
+              width="250"
+              height="121"
             />
           </a>
           <a
             href="javascript()"
+            name="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-skillmarket.jpg"
@@ -143,10 +168,13 @@ function Projects() {
               className="img-responsive"
               alt=""
               src="/images/projects/web-skillmarket_tn.jpg"
+              width="250"
+              height="124"
             />
           </a>
           <a
             href="javascript()"
+            name="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-skillmarket-consultants.jpg"
@@ -156,10 +184,13 @@ function Projects() {
               className="img-responsive"
               alt=""
               src="/images/projects/web-skillmarket-consultants_tn.jpg"
+              width="250"
+              height="123"
             />
           </a>
           <a
             href="javascript()"
+            name="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-uahn.jpg"
@@ -169,10 +200,13 @@ function Projects() {
               className="img-responsive"
               alt=""
               src="/images/projects/web-uahn_tn.jpg"
+              width="250"
+              height="102"
             />
           </a>
           <a
             href="javascript()"
+            name="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-uci.jpg"
@@ -182,6 +216,8 @@ function Projects() {
               className="img-responsive"
               alt=""
               src="/images/projects/web-uci_tn.jpg"
+              width="250"
+              height="113"
             />
           </a>
         </LightGallery>
