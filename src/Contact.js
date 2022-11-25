@@ -9,6 +9,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Button from "@mui/material/Button";
 import SendIcon from "@mui/icons-material/Send";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
+import DownloadIcon from "@mui/icons-material/Download";
 import "./Contact.css";
 
 const reasons = [
@@ -123,6 +124,14 @@ function Contact() {
                     endIcon={<SendIcon />}
                   >
                     Send Message
+                  </Button>
+                  <Button
+                    id="resume-download-btn"
+                    variant="contained"
+                    href="/docs/Resume_Jonathan-Hustead_Front-End-Software-Engineer.pdf"
+                    startIcon={<DownloadIcon />}
+                  >
+                    Download Résumé
                   </Button>
                 </div>
               </form>

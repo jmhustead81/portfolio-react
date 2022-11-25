@@ -23,3 +23,8 @@
   background-color: #262837 !important;
   color: #ffffff !important;
 }
+
+#resume-download-btn {
+  float: right;
+  background-color: #612597 !important;
+}

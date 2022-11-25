@@ -37,6 +37,7 @@ function About() {
                   href="https://www.linkedin.com/in/jmhustead"
                   target="_blank"
                   rel="noreferrer"
+                  className="about-btn"
                   title="Visit my LinkedIn Page"
                 >
                   <LinkedInIcon sx={{ width: 28, height: 28 }} />
@@ -45,11 +46,16 @@ function About() {
                   href="https://github.com/jmhustead81"
                   target="_blank"
                   rel="noreferrer"
-                  title="See my Public GitHub Repository"
+                  className="about-btn"
+                  title="Visit my Public GitHub Repository"
                 >
                   <GitHubIcon sx={{ width: 28, height: 28 }} />
                 </Link>
-                <Link href="#" title="Download my Resume">
+                <Link
+                  href="/docs/Resume_Jonathan-Hustead_Front-End-Software-Engineer.pdf"
+                  className="about-btn"
+                  title="Download my Résumé"
+                >
                   <FileDownloadIcon sx={{ width: 28, height: 28 }} />
                 </Link>
               </Grid>
