@@ -28,6 +28,7 @@
 .skillbar-percent {
   position: relative;
   left: 160px;
-  top: -1px;
+  top: -2px;
   display: inline-block;
+  font-family: "Exo 2", sans-serif !important;
 }

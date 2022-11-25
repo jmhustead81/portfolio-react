@@ -28,3 +28,12 @@
   float: right;
   background-color: #612597 !important;
 }
+
+@media only screen and (max-width: 520px) {
+  #resume-download-btn {
+    float: none;
+    margin-top: 10px;
+    display: flex;
+    width: 235px;
+  }
+}

@@ -9,8 +9,7 @@ function Footer() {
       <footer>
         <Container fixed>
           <Typography align="center" variant="subtitle2">
-            Copyright © {new Date().getFullYear()} Jonathan Hustead. All rights
-            reserved.
+            Copyright © {new Date().getFullYear()} Jonathan Hustead.
           </Typography>
           <Typography align="center" variant="caption">
             Site design inspired by the&nbsp;

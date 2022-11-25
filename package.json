@@ -5,7 +5,8 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "@fontsource/roboto": "^4.5.8",
+    "@fontsource/exo-2": "^4.5.10",
+    "@fontsource/orbitron": "^4.5.10",
     "@mui/icons-material": "^5.10.14",
     "@mui/material": "^5.10.14",
     "lightgallery": "^2.7.0",
