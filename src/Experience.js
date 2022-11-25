@@ -24,7 +24,7 @@ function Experience() {
           />
           Experience
         </h1>
-        <LinearProgress color="secondary" name="experience-decorative" />
+        <LinearProgress color="secondary" aria-label="experience-decorative" />
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element-work vertical-timeline-element-work-latest"

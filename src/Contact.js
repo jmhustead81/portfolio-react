@@ -49,7 +49,7 @@ function Contact() {
           />
           Contact
         </h1>
-        <LinearProgress color="secondary" name="contact-decorative" />
+        <LinearProgress color="secondary" aria-label="contact-decorative" />
         <Card id="contact-card">
           <CardContent>
             <FormControl>

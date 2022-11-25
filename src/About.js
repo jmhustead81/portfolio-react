@@ -23,7 +23,7 @@ function About() {
           />
           About
         </h1>
-        <LinearProgress color="secondary" name="about-decorative" />
+        <LinearProgress color="secondary" aria-label="about-decorative" />
         <Card>
           <CardContent>
             <Grid container wrap="nowrap" spacing={2}>
@@ -61,12 +61,12 @@ function About() {
                 </Link>
               </Grid>
               <Grid item xs>
-                <h3>
+                <strong>
                   I am a front-end focused software engineer who will improve
                   your website by making it look nicer, run faster, and appeal
                   to a much larger audience in a much shorter timeframe than
                   you'd expect.
-                </h3>
+                </strong>
                 <p>
                   I've been creating webpages since Web 1.0 in the late 1990's.
                   In middle school, I taught myself HTML, CSS, and basic

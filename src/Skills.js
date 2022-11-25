@@ -43,7 +43,7 @@ function Skills() {
           />
           Skills
         </h1>
-        <LinearProgress color="secondary" name="skills-decorative" />
+        <LinearProgress color="secondary" aria-label="skills-decorative" />
         <Card id="skills-card">
           <CardContent>
             <SkillBar

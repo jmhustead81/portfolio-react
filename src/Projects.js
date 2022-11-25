@@ -21,7 +21,7 @@ function Projects() {
           />
           Projects
         </h1>
-        <LinearProgress color="secondary" name="projects-decorative" />
+        <LinearProgress color="secondary" aria-label="projects-decorative" />
         <LightGallery
           speed={500}
           plugins={[lgThumbnail, lgZoom]}
@@ -30,7 +30,7 @@ function Projects() {
         >
           <a
             href="javascript()"
-            name="projects-view"
+            aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-statuspage.jpg"
@@ -46,7 +46,7 @@ function Projects() {
           </a>
           <a
             href="javascript()"
-            name="projects-view"
+            aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-adventcommunity.jpg"
@@ -62,7 +62,7 @@ function Projects() {
           </a>
           <a
             href="javascript()"
-            name="projects-view"
+            aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-adventgate.jpg"
@@ -78,7 +78,7 @@ function Projects() {
           </a>
           <a
             href="javascript()"
-            name="projects-view"
+            aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-adventgate-reskin.jpg"
@@ -94,7 +94,7 @@ function Projects() {
           </a>
           <a
             href="javascript()"
-            name="projects-view"
+            aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-portfoliodata.png"
@@ -110,7 +110,7 @@ function Projects() {
           </a>
           <a
             href="javascript()"
-            name="projects-view"
+            aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-advent.jpg"
@@ -126,7 +126,7 @@ function Projects() {
           </a>
           <a
             href="javascript()"
-            name="projects-view"
+            aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-optimumhit.jpg"
@@ -142,7 +142,7 @@ function Projects() {
           </a>
           <a
             href="javascript()"
-            name="projects-view"
+            aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-optimumhit-portal.jpg"
@@ -158,7 +158,7 @@ function Projects() {
           </a>
           <a
             href="javascript()"
-            name="projects-view"
+            aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-skillmarket.jpg"
@@ -174,7 +174,7 @@ function Projects() {
           </a>
           <a
             href="javascript()"
-            name="projects-view"
+            aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-skillmarket-consultants.jpg"
@@ -190,7 +190,7 @@ function Projects() {
           </a>
           <a
             href="javascript()"
-            name="projects-view"
+            aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-uahn.jpg"
@@ -206,7 +206,7 @@ function Projects() {
           </a>
           <a
             href="javascript()"
-            name="projects-view"
+            aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-uci.jpg"

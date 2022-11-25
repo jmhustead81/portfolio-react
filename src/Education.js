@@ -19,7 +19,7 @@ function Education() {
           <SchoolIcon className="header-icon" sx={{ width: 32, height: 32 }} />
           Education
         </h1>
-        <LinearProgress color="secondary" name="education-decorative" />
+        <LinearProgress color="secondary" aria-label="education-decorative" />
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element-education vertical-timeline-element-education-latest"
