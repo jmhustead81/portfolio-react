@@ -40,7 +40,7 @@ function About() {
                   className="about-btn"
                   title="Visit my LinkedIn Page"
                 >
-                  <LinkedInIcon sx={{ width: 28, height: 28 }} />
+                  <LinkedInIcon sx={{ width: 48, height: 48 }} />
                 </Link>
                 <Link
                   href="https://github.com/jmhustead81"
@@ -49,7 +49,7 @@ function About() {
                   className="about-btn"
                   title="Visit my Public GitHub Repository"
                 >
-                  <GitHubIcon sx={{ width: 28, height: 28 }} />
+                  <GitHubIcon sx={{ width: 48, height: 48 }} />
                 </Link>
                 <Link
                   href="/docs/Resume_Jonathan-Hustead_Front-End-Software-Engineer.pdf"
@@ -57,7 +57,7 @@ function About() {
                   className="about-btn"
                   title="Download my Résumé"
                 >
-                  <FileDownloadIcon sx={{ width: 28, height: 28 }} />
+                  <FileDownloadIcon sx={{ width: 48, height: 48 }} />
                 </Link>
               </Grid>
               <Grid item xs>
