@@ -18,3 +18,9 @@ footer .MuiLink-root:focus,
 footer .MuiLink-root:hover {
   text-decoration: underline !important;
 }
+
+@media only screen and (max-width: 499px) {
+  #footer-madewith-link {
+    display: block;
+  }
+}

@@ -23,7 +23,11 @@ function Footer() {
             </Link>
             .
           </Typography>
-          <Typography align="center" variant="caption">
+          <Typography
+            align="center"
+            variant="caption"
+            id="footer-madewith-link"
+          >
             &nbsp;&nbsp;Built with&nbsp;
             <Link
               href="https://reactjs.org/"
