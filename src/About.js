@@ -30,7 +30,7 @@ function About() {
               <Grid item>
                 <Avatar
                   alt="Jonathan Hustead"
-                  src="/images/profile.jpg"
+                  src="/images/about.jpg"
                   sx={{ width: 96, height: 96 }}
                 />
                 <Link
@@ -84,7 +84,7 @@ function About() {
                   everything from create online communities to share vital
                   statistics.
                 </p>
-                <strong>I'm excited to see what's next!</strong>
+                <em>I'm excited to see what's next!</em>
               </Grid>
             </Grid>
           </CardContent>

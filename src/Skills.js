@@ -49,8 +49,9 @@ function Skills() {
             <SkillBar
               skills={skills}
               colors={colors}
+              animationDelay={500}
               height={20}
-              animationDuration={2000}
+              animationDuration={1500}
             />
           </CardContent>
         </Card>
