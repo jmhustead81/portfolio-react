@@ -129,6 +129,38 @@ function Projects() {
             aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
+            data-src="/images/projects/web-dcadmin.png"
+            data-sub-html="<strong>Download Center Admin</strong><p>Management for SS&C Advent Client downloads.</p><p>Made with .NET, Bootstrap, and jQuery.</p>"
+          >
+            <img
+              className="img-responsive"
+              alt=""
+              src="/images/projects/web-dcadmin_tn.jpg"
+              width="250"
+              height="137"
+            />
+          </a>
+          <a
+            href="javascript()"
+            aria-label="projects-view"
+            data-lg-size="1263-736"
+            className="gallery-item"
+            data-src="/images/projects/web-adcadmin.png"
+            data-sub-html="<strong>Community Admin</strong><p>Management for SS&C Advent Community site.</p><p>Made with .NET, Bootstrap, jQuery, and AngularJS.</p>"
+          >
+            <img
+              className="img-responsive"
+              alt=""
+              src="/images/projects/web-adcadmin_tn.jpg"
+              width="250"
+              height="137"
+            />
+          </a>
+          <a
+            href="javascript()"
+            aria-label="projects-view"
+            data-lg-size="1263-736"
+            className="gallery-item"
             data-src="/images/projects/web-portfoliodata.png"
             data-sub-html="<strong>Portfolio Data Admin</strong><p>Data view, setup, and configuration for SS&C Advent Client Portfolios.</p><p>Made with .NET, Bootstrap, and jQuery.</p>"
           >
