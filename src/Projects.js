@@ -33,6 +33,38 @@ function Projects() {
             aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
+            data-src="/images/projects/web-statuscenter.png"
+            data-sub-html="<strong>Status Center</strong><p>Site for SS&C Advent Employees to manage system statuses.</p><p>Made with .NET Core and AngularJS.</p>"
+          >
+            <img
+              className="img-responsive"
+              alt=""
+              src="/images/projects/web-statuscenter_tn.jpg"
+              width="250"
+              height="137"
+            />
+          </a>
+          <a
+            href="javascript()"
+            aria-label="projects-view"
+            data-lg-size="1263-736"
+            className="gallery-item"
+            data-src="/images/projects/web-statuspage2.png"
+            data-sub-html="<strong>Status Page v2</strong><p>Update to site for SS&C Advent Clients to view system statuses.</p><p>Made with .NET Core and AngularJS.</p>"
+          >
+            <img
+              className="img-responsive"
+              alt=""
+              src="/images/projects/web-statuspage2_tn.jpg"
+              width="250"
+              height="130"
+            />
+          </a>
+          <a
+            href="javascript()"
+            aria-label="projects-view"
+            data-lg-size="1263-736"
+            className="gallery-item"
             data-src="/images/projects/web-statuspage.jpg"
             data-sub-html="<strong>Status Page</strong><p>Site for SS&C Advent Clients to view system statuses.</p><p>Made with .NET Core and AngularJS.</p>"
           >
