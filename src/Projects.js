@@ -34,7 +34,7 @@ function Projects() {
             data-lg-size="1899-1055"
             className="gallery-item"
             data-src="/images/projects/web-status-cloud.jpg"
-            data-sub-html="<strong>Status Cloud</strong><p>Reskin of site for SS&C Advent Clients to view system statuses.</p><p>Made with .NET Core and AngularJS.</p>"
+            data-sub-html="<strong>SS&C Status Cloud</strong><p>Reskin of site for SS&C Advent Clients to view system statuses.</p><p>Made with .NET Core and AngularJS.</p>"
           >
             <img
               className="img-responsive"
