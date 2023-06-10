@@ -31,6 +31,22 @@ function Projects() {
           <a
             href="javascript()"
             aria-label="projects-view"
+            data-lg-size="1899-1055"
+            className="gallery-item"
+            data-src="/images/projects/web-status-cloud.jpg"
+            data-sub-html="<strong>Status Cloud</strong><p>Reskin of site for SS&C Advent Clients to view system statuses.</p><p>Made with .NET Core and AngularJS.</p>"
+          >
+            <img
+              className="img-responsive"
+              alt=""
+              src="/images/projects/web-status-cloud_tn.jpg"
+              width="250"
+              height="138"
+            />
+          </a>
+          <a
+            href="javascript()"
+            aria-label="projects-view"
             data-lg-size="1263-736"
             className="gallery-item"
             data-src="/images/projects/web-statuscenter.png"
