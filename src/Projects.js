@@ -33,6 +33,22 @@ function Projects() {
             aria-label="projects-view"
             data-lg-size="1899-1055"
             className="gallery-item"
+            data-src="/images/projects/web-wit-intranet.jpg"
+            data-sub-html="<strong>WIT Intranet</strong><p>Refactored and redesigned team intranet.</p><p>Made with .NET Core, jQuery, and Bootstrap.</p>"
+          >
+            <img
+              className="img-responsive"
+              alt=""
+              src="/images/projects/web-wit-intranet-tn.jpg"
+              width="250"
+              height="163"
+            />
+          </a>
+          <a
+            href="javascript()"
+            aria-label="projects-view"
+            data-lg-size="1899-1055"
+            className="gallery-item"
             data-src="/images/projects/web-status-cloud.jpg"
             data-sub-html="<strong>SS&C Status Cloud</strong><p>Reskin of site for SS&C Advent Clients to view system statuses.</p><p>Made with .NET Core and AngularJS.</p>"
           >
